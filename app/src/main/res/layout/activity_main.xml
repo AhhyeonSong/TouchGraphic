@@ -40,15 +40,12 @@
             android:textAppearance="?android:textAppearanceLarge"
             android:layout_marginRight="10dp"
             android:onClick="drawShape"/>
-
-        <LinearLayout
-            android:id="@+id/linear_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
     </LinearLayout>
 </LinearLayout>
